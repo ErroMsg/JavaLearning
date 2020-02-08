@@ -1,4 +1,4 @@
-package classLearning;
+package Learning0207;
 
 public class Shark extends Animal {
 

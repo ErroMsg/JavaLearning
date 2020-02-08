@@ -1,6 +1,4 @@
-package classLearning;
-
-import org.omg.CORBA.WStringSeqHelper;
+package Learning0207;
 
 public class Cat extends Animal {
 
