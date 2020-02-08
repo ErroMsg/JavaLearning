@@ -115,6 +115,7 @@ public class Main {
 
         //这里出现classLearning.Cat cannot be cast to classLearning.Shark
         //类型强转调用方法出错，这里是否有安全检查语句？
+
         if(tom instanceof Shark)
         {
             Shark tempAnimal = (Shark)tom;
@@ -122,8 +123,9 @@ public class Main {
         }
         else
         {
-            System.out.println("Type Change Error!");
+            System.out.print("tom is not instanceof Shark!");
         }
+
         
     }
 
