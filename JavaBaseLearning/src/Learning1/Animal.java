@@ -1,4 +1,4 @@
-package Learning0207;
+package Learning1;
 
 public abstract class Animal implements AnimalInterface {
     protected String name = "unknown";

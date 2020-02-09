@@ -1,4 +1,4 @@
-package Learning0207;
+package Learning1;
 
 public interface AnimalInterface {
     public  void move();

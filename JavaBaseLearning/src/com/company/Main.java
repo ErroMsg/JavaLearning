@@ -1,6 +1,6 @@
 package com.company;
 
-import Learning0208.MainFunction2;
+import Learning2.MainFunction2;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Start");
 
 /*
-****************************2020-2-7*********************************/
+*************************************************************/
         //基本数据类型大小
         //MainFunction1.printBaseTypeSize();
         //
@@ -21,12 +21,27 @@ public class Main {
         //MainFunction1.classTest();
 
 /*
-****************************2020-2-8*********************************/
+*************************************************************/
 
         //
-        MainFunction2.printArgsFunction("A","B","C","D","CCCC");
+        //MainFunction2.printArgsFunction("A","B","C","D","CCCC");
 
+        //接口学习
+        //MainFunction2.interfaceTestCode();
 
+        //clone
+        /*try{
+            MainFunction2.cloneTest();
+        }
+        catch (CloneNotSupportedException e) {
+            System.out.println("Clone Not Support!!!");
+        }*/
+
+        //lamda
+        //MainFunction2.LamdaTest();
+
+        //String
+        MainFunction2.StringTest();
 
         System.out.println("End");
 
